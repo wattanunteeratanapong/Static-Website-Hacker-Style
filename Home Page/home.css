@@ -1,0 +1,268 @@
+* {
+    font-family: "Share Tech Mono", monospace;
+}
+
+
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+#canvas {
+    background-color: black;
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+@media (max-width: 767px){
+    #canvas {
+        background-color: black;
+        z-index: -1;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .unsupport {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 90vh;
+        font-size: 2em;
+        color: white;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    #homecanvas {
+        display: none;
+    }
+
+    .flexdisplay {
+        display: none;
+    }
+}
+
+
+
+@media (min-width: 768px){
+    .unsupport {
+        display: none;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        top: 0;
+        left: 0;
+        justify-content: space-between;
+        width: 100vw;
+        height: 8vh;
+        background-color: #181818;
+        z-index: 1;
+    }
+    
+    .logo {
+        margin-left: 2vw;
+    }
+    
+    .logo42 {
+        width: auto;
+        height: 100%;
+    }
+    
+    .links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-right: 2vw;
+    }
+    
+    .homebox {
+        margin-right: 2vw;
+        border-radius: 10px;
+        transition: transform 0.5s;
+    }
+    
+    .home {
+        padding: 2vh 2vw;
+        color: white;
+        text-decoration: none;
+        font-size: 2em;
+        transition: color 0.3s;
+    }
+    
+    .homebox:hover {
+        transform: scale(1.1);
+    }
+    
+    .home:hover {
+        color: #00cc33;
+    }
+    
+    .profilebox {
+        border-radius: 10px;
+        transition: transform 0.5s;
+    }
+    
+    .profile {
+        padding: 2vh 2vw;
+        color: white;
+        text-decoration: none;
+        font-size: 2em;
+        transition: color 0.3s;
+    }
+    
+    .profilebox:hover {
+        transform: scale(1.1);
+        color: #00cc33;
+    }
+    
+    .profile:hover {
+        color: #00cc33;
+    }
+    
+    
+    
+    #homecanvas {
+        display: flex;
+        flex-direction: column;
+        top: 0;
+        left: 0;
+        justify-content: center;
+        align-items: center;
+        font-size: 2em;
+        width: 100vw;
+        height: 100vh;
+        color: white;
+    }
+    
+    
+    
+    #profilecanvas {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 2em;
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    
+    
+    .flexdisplay {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10vh;
+        width: 50vw;
+        height: 80vh;
+        background-color: #181818;
+        border-radius: 20px;
+        transition: transform 0.5s;
+    }
+    
+    
+    
+    .anchorpicture {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        height: 60%;
+    }
+    
+
+
+    .profilepicture {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        border: 5px solid black;
+        border-radius: 10%;
+        transition: transform 0.5s, border 0.5s;
+    }
+    
+    
+    .profilepicture:hover {
+        transform: scale(1.05);
+        border: 5px solid #00cc33;
+    }
+
+    #name {
+        font-size: 2em;
+        color: white;
+        transition: color 0.3s;
+    }
+
+    #name:hover {
+        color: #00cc33;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
